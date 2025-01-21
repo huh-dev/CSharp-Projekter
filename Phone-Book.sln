@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook", "PhoneBook\PhoneBook.csproj", "{61F4DEA7-9B42-403F-A6DB-4250D75AFBC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phone-Book", "Phone-Book\Phone-Book.csproj", "{50981F7D-DDA0-47B6-9D75-27E6BEE2AAE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{61F4DEA7-9B42-403F-A6DB-4250D75AFBC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61F4DEA7-9B42-403F-A6DB-4250D75AFBC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61F4DEA7-9B42-403F-A6DB-4250D75AFBC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61F4DEA7-9B42-403F-A6DB-4250D75AFBC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50981F7D-DDA0-47B6-9D75-27E6BEE2AAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50981F7D-DDA0-47B6-9D75-27E6BEE2AAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50981F7D-DDA0-47B6-9D75-27E6BEE2AAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50981F7D-DDA0-47B6-9D75-27E6BEE2AAE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

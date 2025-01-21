@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris\\Desktop\\c#\\GrundforløbsOpgaver\\PhoneBook\\PhoneBook.csproj": {}
+    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\Phone-Book\\Phone-Book.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris\\Desktop\\c#\\GrundforløbsOpgaver\\PhoneBook\\PhoneBook.csproj": {
+    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\Phone-Book\\Phone-Book.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\Desktop\\c#\\GrundforløbsOpgaver\\PhoneBook\\PhoneBook.csproj",
-        "projectName": "PhoneBook",
-        "projectPath": "C:\\Users\\chris\\Desktop\\c#\\GrundforløbsOpgaver\\PhoneBook\\PhoneBook.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\Phone-Book\\Phone-Book.csproj",
+        "projectName": "Phone-Book",
+        "projectPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\Phone-Book\\Phone-Book.csproj",
         "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\Desktop\\c#\\GrundforløbsOpgaver\\PhoneBook\\obj\\",
+        "outputPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\Phone-Book\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
