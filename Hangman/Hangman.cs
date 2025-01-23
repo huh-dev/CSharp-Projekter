@@ -2,8 +2,6 @@ namespace Hangman
 {
     internal class Hangman
     {
-        enum GameState { Start, Playing, Won, Lost }
-
         private string word = "";
 
         private string[,] players = new string[2,2];
