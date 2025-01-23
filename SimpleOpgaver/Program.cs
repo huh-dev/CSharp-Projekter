@@ -440,7 +440,8 @@ class Program
                             harGættetRigtigt = true;
                         }
 
-                    } while (!harGættetRigtigt);
+                    } while (!harGættetRigtigt)
+
 
                     System.Threading.Thread.Sleep(3000);
                     Console.Clear();
