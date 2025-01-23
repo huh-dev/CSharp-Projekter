@@ -92,7 +92,7 @@ namespace Hangman
                 VisualPresentation(wrongGuesses);
                 System.Threading.Thread.Sleep(2000);
 
-                players[player, 1] += guess;
+                players[player, 1] += " " + guess;
                 Console.Clear();
             }
 
