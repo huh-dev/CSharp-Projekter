@@ -168,13 +168,12 @@ namespace Hangman
         //MARK: Game Over
         private void GameOver(int player)
         {
-            if (player >= players.GetLength(0)) return;  
             
             System.Threading.Thread.Sleep(2000);
             Console.Clear();
-            Console.WriteLine($"Player {player + 1} wins!");  
+            string playerName = GetPlayerName(player);
+            Console.WriteLine($"{playerName} wins!");  
             Console.WriteLine("Game Over! The word was: " + word);
-            Console.WriteLine("The guesses were: " + players[player, 1]);
             Console.WriteLine($"There were {wrongGuesses} wrong guesses");
             System.Threading.Thread.Sleep(2000);
             Console.WriteLine("The hangman was looking like this:");
