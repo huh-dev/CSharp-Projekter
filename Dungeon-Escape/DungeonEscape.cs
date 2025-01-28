@@ -14,6 +14,10 @@ namespace DungeonEscape
 
         private static int[,] positions = new int[2,2]; 
 
+        //MARK: Debug Mode
+        //Simple bool to enable to see traps, key and exit to easier test the game
+        private static bool showDebug = false;
+
         //MARK: Setup Game
         public static void SetupGame()
         {
@@ -173,7 +177,32 @@ namespace DungeonEscape
                         Console.Write("#");
                     }
 
-                    // If the game array contains nothing, we display a space
+                    // Debug mode: show traps, keys, and exits
+                    else if (showDebug)
+                    {
+                        if (Map[i,j] == 'T')
+                        {
+                            Console.Write("T");
+                        }
+                        else if (Game[i,j] == "K")
+                        {
+                            Console.Write("K");
+                        }
+                        else if (Game[i,j] == "E")
+                        {
+                            Console.Write("E");
+                        }
+                        else if (Map[i,j] == 'W')
+                        {
+                            Console.Write("#");
+                        }
+                        else
+                        {
+                            Console.Write(" ");
+                        }
+                    }
+
+                    // If debug mode is off or no special character, display a space
                     else
                     {
                         Console.Write(" ");
