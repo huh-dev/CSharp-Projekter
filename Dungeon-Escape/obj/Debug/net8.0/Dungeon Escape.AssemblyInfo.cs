@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dungeon Escape")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1d4eee3b3c001d9b6abfe10893284af8c871d65")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf401b449d0f2c9d7ec3ad12d34dadac108c6951")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dungeon Escape")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dungeon Escape")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

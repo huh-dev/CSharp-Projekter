@@ -5,7 +5,7 @@
     {
         static void Main(string[] args)
         {
-            DungeonEscape2.SetupGame();
+            DungeonEscapeGame.SetupGame();
         }
     }
 }
