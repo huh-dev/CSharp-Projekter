@@ -170,7 +170,7 @@ namespace DungeonEscape
                     {
                         Console.Write("#");
                     }
-                    
+
                     // If the game array contains nothing, we display a space
                     else
                     {
@@ -355,9 +355,18 @@ namespace DungeonEscape
             // The user escaped the dungeon and we then ask if they want to play again
             Console.Clear();
             Console.WriteLine("Tillykke! Du har overlevet og er ny ude af dungeonen!");
-            Console.WriteLine("\nTryk for at starte igen...");
-            Console.ReadKey();
-            SetupGame();
+            Console.WriteLine("Ønsker du at spille igen? (Y/N)");
+            string input = Console.ReadLine().ToUpper();
+            if (input == "Y")
+            {
+                SetupGame();
+            }
+            else
+            {
+                Console.WriteLine("Tak for spillet!");
+                System.Threading.Thread.Sleep(2000);
+                Environment.Exit(0);
+            }
         }
     }
 }
