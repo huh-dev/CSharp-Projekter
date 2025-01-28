@@ -4,7 +4,9 @@ namespace DungeonEscape
 
     internal class DungeonEscapeGame
     {
+        
 
+        //Simple char multidimensional array (started with int, but wanted to use char to easier check for different objects instead of using integers)
         private static char[,] Map = new char[10,10];
         private static string[,] Game = new string[10,10];
 
