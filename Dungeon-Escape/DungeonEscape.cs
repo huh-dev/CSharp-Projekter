@@ -309,9 +309,18 @@ namespace DungeonEscape
                 {
                     Console.Clear();
                     Console.WriteLine("Åh nej! Du faldt i en fælde!");
-                    Console.WriteLine("Tryk for at starte igen...");
-                    Console.ReadKey();
-                    SetupGame(); 
+                    Console.WriteLine("Ønsker du at spille igen? (Y/N)");
+                    string input = Console.ReadLine().ToUpper();
+                    if (input == "Y")
+                    {
+                        SetupGame(); 
+                    }
+                    else
+                    {
+                        Console.WriteLine("Tak for spillet!");
+                        System.Threading.Thread.Sleep(2000);
+                        Environment.Exit(0);
+                    }
                     return;
                 }
                 
