@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\crud\\CRUD.csproj": {}
+    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\CRUD\\CRUD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\crud\\CRUD.csproj": {
+    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\CRUD\\CRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\crud\\CRUD.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\CRUD\\CRUD.csproj",
         "projectName": "CRUD",
-        "projectPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\crud\\CRUD.csproj",
+        "projectPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\CRUD\\CRUD.csproj",
         "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\crud\\obj\\",
+        "outputPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\CRUD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
