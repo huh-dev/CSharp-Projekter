@@ -1,19 +1,21 @@
 namespace OOP_Opg_1
 {
-    internal class ElectricCar : Car
+    internal sealed class ElectricCar : Car
     {
-        private double battery = 100;
+        private double battery {get; set;} = 100;
 
-        public void InitElectricCar(string model, string brand, int year, int speed, double battery)
+        public void InitElectricCar(string model, string brand, int year, double battery)
         {
             InitVehicle(model, brand, year, speed);
             this.battery = battery;
         }
 
-        public override void Refuel(double electricity)
+
+
+        public override void Refuel(double procent)
         {
-            this.battery = electricity;
-            Console.WriteLine($"Refueling the vehicle the battery was {this.battery} kWh, and is now {electricity} kWh");
+            this.battery = procent;
+            Console.WriteLine($"Charging the vehicle - battery was {this.battery} kWh, and is now {procent} kWh");
         }
 
         public override void Drive(int speed)
@@ -21,7 +23,7 @@ namespace OOP_Opg_1
             if (battery > 0)
             {
                 base.Drive(speed);
-                battery -= 0.5;
+                battery -= 1;
                 Console.WriteLine($"Driving at {speed} km/h, the battery is now {this.battery} kWh");
             }
             else

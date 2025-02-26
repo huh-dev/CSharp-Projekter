@@ -14,7 +14,7 @@
             // car.ShowInfo();
 
             ElectricCar electricCar = new ElectricCar();
-            electricCar.InitElectricCar("Tesla", "Model S", 2024, 100, 100);
+            electricCar.InitElectricCar("Tesla", "Model S", 2024, 100);
             electricCar.Drive(100);
             electricCar.Refuel(100);
             electricCar.Stop();
