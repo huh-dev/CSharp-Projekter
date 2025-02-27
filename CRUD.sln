@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP Opg. 1", "OOP Opg. 1\OO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static Training", "Static Training\Static Training.csproj", "{3AB442DE-AFD0-4116-9930-339716E034FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatch", "TryCatch\TryCatch.csproj", "{D9F345DE-51D6-467A-A528-C27824EF4855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nedarvning", "Nedarvning\Nedarvning.csproj", "{BA4B2842-3166-4104-8374-386A7F2354DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{3AB442DE-AFD0-4116-9930-339716E034FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AB442DE-AFD0-4116-9930-339716E034FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AB442DE-AFD0-4116-9930-339716E034FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F345DE-51D6-467A-A528-C27824EF4855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F345DE-51D6-467A-A528-C27824EF4855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F345DE-51D6-467A-A528-C27824EF4855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F345DE-51D6-467A-A528-C27824EF4855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA4B2842-3166-4104-8374-386A7F2354DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4B2842-3166-4104-8374-386A7F2354DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4B2842-3166-4104-8374-386A7F2354DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4B2842-3166-4104-8374-386A7F2354DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
