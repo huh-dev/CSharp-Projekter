@@ -6,9 +6,9 @@ namespace StaticTraining
         private decimal saldo {get; set;}
 
 
-        public static void UpdateRente(decimal rente)
+        public static void UpdateRente(decimal nyRente)
         {
-            this.rente = rente;
+            rente = nyRente;
         }
 
         public void Indsaet(decimal belob)
@@ -21,6 +21,7 @@ namespace StaticTraining
             else
             {
                 Console.WriteLine("Beløbet er negativt");
+            }
         }
 
         public void Hæv(decimal belob)
@@ -33,6 +34,7 @@ namespace StaticTraining
             else
             {
                 saldo -= belob;
+            }
         }
     }
 }
