@@ -1,21 +1,44 @@
 ﻿using Zoo;
 
-class Program
+internal class Program
 {
     static void Main(string[] args)
     {
-        
-        //GUI Start
-        Console.WriteLine("Welcome to the Zoo!");
-        Console.WriteLine("Please select an option:");
-        Console.WriteLine("1. View Zoo");
-        Console.WriteLine("2. View Enclosures");
-        Console.WriteLine("3. View Animals");
-        Console.WriteLine("4. Exit");
+        Console.WriteLine("Hello, World!");
+        LuiEdge.Car car = new LuiEdge.Car("BMW", 4);
+        Console.WriteLine(car.name);
+        Console.WriteLine(car.wheels);
+        car.Drive();
+    }
+}
 
 
+internal class LuiEdge
+{
+    public abstract class Vehicles() 
+    {
+        public int wheels {get; set;}
+        public string name {get; set;}
 
+        public abstract void Drive();
 
+    }
+
+    internal interface ICar {
+    }
+
+    internal class Car : Vehicles, ICar {
+
+        public Car(string name, int wheels)
+        {
+            this.name = name;
+            this.wheels = wheels;
+        }
+
+        public override void Drive()
+        {
+            Console.WriteLine("Driving " + name + " with " + wheels + " wheels");
+        }
 
     }
 }

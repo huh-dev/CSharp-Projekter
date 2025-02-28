@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZooGUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af8ec311d294b7ecc0d9898fb67b4a6e0f280763")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d77b0bb79cc47661c91e4d20ba0f7b65a4be604")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZooGUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZooGUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
