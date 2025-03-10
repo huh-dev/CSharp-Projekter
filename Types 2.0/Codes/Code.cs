@@ -13,7 +13,7 @@ namespace Types
         public SearchResultDTO SearchWord(string text, string wordToSearch)
         {
             var words = text.Split(new[] { ' ', '.', ',', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
-            var count = words.Count(w => w.Equals(wordToSearch, StringComparison.OrdinalIgnoreCase));
+            var count = words.Count(w => w.Contains(wordToSearch, StringComparison.OrdinalIgnoreCase));
 
             return new SearchResultDTO
             {
