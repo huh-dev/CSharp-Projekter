@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0cLY/kRnnhU=",
+  "dgSpecHash": "MWLnAVmoQN8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\types\\Types.csproj",
+  "projectFilePath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\Types\\Types.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.2\\microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\types\\Types.csproj": {}
+    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\Types\\Types.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\types\\Types.csproj": {
+    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\Types\\Types.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\types\\Types.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\Types\\Types.csproj",
         "projectName": "Types",
-        "projectPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\types\\Types.csproj",
+        "projectPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\Types\\Types.csproj",
         "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\types\\obj\\",
+        "outputPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\Types\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",

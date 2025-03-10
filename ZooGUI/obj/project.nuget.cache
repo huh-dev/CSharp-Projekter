@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rag5LpwNjjg=",
+  "dgSpecHash": "/M5p8AHeYmM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\ZooGui\\ZooGUI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\ZooGUI\\ZooGUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.2\\microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
