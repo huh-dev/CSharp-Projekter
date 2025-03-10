@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\zoogui\\ZooGUI.csproj": {}
+    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\ZooGUI\\ZooGUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\zoogui\\ZooGUI.csproj": {
+    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\ZooGUI\\ZooGUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\zoogui\\ZooGUI.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\ZooGUI\\ZooGUI.csproj",
         "projectName": "ZooGUI",
-        "projectPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\zoogui\\ZooGUI.csproj",
+        "projectPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\ZooGUI\\ZooGUI.csproj",
         "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\zoogui\\obj\\",
+        "outputPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\ZooGUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",

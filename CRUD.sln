@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo", "Zoo\Zoo.csproj", "{B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooGUI", "ZooGUI\ZooGUI.csproj", "{7C7C6F5A-23D5-4952-AF02-D0B658B7D33A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaPlayer", "MediaPlayer\MediaPlayer.csproj", "{1EC6CDE5-7146-4BA2-82B3-6B6A2242FF61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Types", "Types\Types.csproj", "{5A2C16BC-E1DA-4BE3-A96B-8A29E1B5B190}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +64,13 @@ Global
 		{7C7C6F5A-23D5-4952-AF02-D0B658B7D33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C7C6F5A-23D5-4952-AF02-D0B658B7D33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C7C6F5A-23D5-4952-AF02-D0B658B7D33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC6CDE5-7146-4BA2-82B3-6B6A2242FF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC6CDE5-7146-4BA2-82B3-6B6A2242FF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC6CDE5-7146-4BA2-82B3-6B6A2242FF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC6CDE5-7146-4BA2-82B3-6B6A2242FF61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2C16BC-E1DA-4BE3-A96B-8A29E1B5B190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2C16BC-E1DA-4BE3-A96B-8A29E1B5B190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2C16BC-E1DA-4BE3-A96B-8A29E1B5B190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2C16BC-E1DA-4BE3-A96B-8A29E1B5B190}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
