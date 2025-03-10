@@ -13,3 +13,7 @@ C:\Users\chris\Documents\GitHub\CSharp-Projekter\Types\obj\Debug\net8.0\refint\T
 C:\Users\chris\Documents\GitHub\CSharp-Projekter\Types\obj\Debug\net8.0\Types.pdb
 C:\Users\chris\Documents\GitHub\CSharp-Projekter\Types\obj\Debug\net8.0\Types.genruntimeconfig.cache
 C:\Users\chris\Documents\GitHub\CSharp-Projekter\Types\obj\Debug\net8.0\ref\Types.dll
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\types\obj\Debug\net8.0\Types.csproj.AssemblyReference.cache
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\types\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\types\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\types\obj\Debug\net8.0\Types.csproj.Up2Date

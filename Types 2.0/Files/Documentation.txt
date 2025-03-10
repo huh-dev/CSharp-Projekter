@@ -1,0 +1,40 @@
+1. Hvorfor skal din ”type” være en ”value type”?
+    -  Grunden til at vores "type" er en "value type" skyldes en lille datastruktur samt bedre performence.
+
+    a. Vil din app virke, hvis din type er en ”reference type”?
+    - Teknisk set vil min type stadig fungere fint hvis man benytter en "reference type" i stedet for en "value type". Dog benyttes en "value type" for bedre memory management, eftersom at en "reference type" allokeres i "heapen" 
+
+    b. Hvad er forskellen mellem brugen af value vs. reference ”type”?
+    - Der er mange forskelle, men den mest væsentlige er performence. Som sagt allokeres en "value type" i stacken og ikke heapen, hvilket gør den markant hurtigere.
+
+2. Krav til din app:
+    Du skal bruge en default constructor. Undersøg hvilke andre constructor typer der findes, og beskriv dem i din dokumentation.
+    - Der findes en del andre constructors (default constructors, parameterized constructor, copy constructor, static constructor, private constructor osv.) 
+
+
+    a. Vil din app virke, hvis din ”type” slet ikke implementerer en constructor?
+    - Ja, dette skyldes at c# automatisk generer en implicit default constructor hvis der ikke er fundet en default constructor. Dog vil dette være problematisk for vores metoder eftersom disse ikke vil blive kaldt.
+
+    b. Hvis din ”type” var en reference type, vil din app så virke, hvis din ”type” slet ikke implementerer en constructor?
+    - Som udgangspunkt vil den stadig fungere, eftersom en "reference type" også modtager en default constructor. Dog vil dette også volde problemer eftersom der ikke vil ske nogen initialisering
+
+3. Hvordan kan man tilgå din type uden at instantiere den som et objekt?
+- Man kan tilgå de statiske props som er lavet. I tilfældet ved Code.cs filen kan man tilgå count uden at istantiere objektet.
+
+4. Hvorfor er det ikke en god idé at skrive til eller læse fra konsollen i din ”type” og i stedet gøre dette i din Program.cs?
+- Det bryder din SRP, samt gør det typen mindre genanvendelig og svære at teste.
+
+5. Krav til din app: Du skal anvende dependency injection (DI) til instantiere din ”type” så vidt muligt.
+
+    a. Har du oplevet problemer, når din ”custom value type” skal instantiere med DI? Hvordan løser du problemet?
+
+    - Ja, eftersom "value types" ikke er lavet til DI, har jeg oplevet problemer. Dette skyldes at DI primært er til "reference types". Derfor benyttes der en nye fil til denne teknik. (Inject.cs)
+
+    b. Undersøg, hvor mange instantiations-teknikker der findes, og beskriv dem i din dokumentation.
+
+    - Der findes følgende (transients, scoped, singleton, factory-baseret, instance)
+
+6. Krav til din app:
+    Du skal anvende en DTO-klasse som returtype for din metode, fordi den skal returnere flere værdier af forskellige typer. En anden teknik er f.eks. en Tuple. Beskriv i din dokumentation, hvilken der er bedst til dette formål.
+
+    - En DTO er typisk bedre i dette tilfælde eftersom den er mere læslig end en Tuple. Samt er den nemmere at udvide med nye felter, uden at ødelægge eksisternce kode, plus har den en stærke type sikkerhed.

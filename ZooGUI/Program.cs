@@ -1,4 +1,5 @@
 ﻿using Zoo;
+using Types;
 
 internal class Program
 {
@@ -9,6 +10,10 @@ internal class Program
         Console.WriteLine(car.name);
         Console.WriteLine(car.wheels);
         car.Drive();
+
+
+        Types.Code code = new Types.Code("type");
+        Console.WriteLine(code.count);
     }
 }
 

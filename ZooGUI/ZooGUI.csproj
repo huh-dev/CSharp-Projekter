@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Zoo\Zoo.csproj" />
+    <ProjectReference Include="..\Types\Types.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

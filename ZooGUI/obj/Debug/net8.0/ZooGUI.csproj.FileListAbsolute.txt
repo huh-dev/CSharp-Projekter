@@ -20,3 +20,8 @@ C:\Users\chris\Documents\GitHub\CSharp-Projekter\zoogui\bin\Debug\net8.0\Zoo.dll
 C:\Users\chris\Documents\GitHub\CSharp-Projekter\zoogui\bin\Debug\net8.0\Zoo.pdb
 C:\Users\chris\Documents\GitHub\CSharp-Projekter\zoogui\obj\Debug\net8.0\ZooGUI.csproj.AssemblyReference.cache
 C:\Users\chris\Documents\GitHub\CSharp-Projekter\zoogui\obj\Debug\net8.0\ZooGUI.csproj.Up2Date
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\ZooGui\bin\Debug\net8.0\Types.deps.json
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\ZooGui\bin\Debug\net8.0\Types.runtimeconfig.json
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\ZooGui\bin\Debug\net8.0\Types.exe
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\ZooGui\bin\Debug\net8.0\Types.dll
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\ZooGui\bin\Debug\net8.0\Types.pdb
