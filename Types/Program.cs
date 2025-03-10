@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿global using Types;
 
 namespace Types
 {
@@ -20,16 +20,6 @@ namespace Types
                 the concepts that are specific to the program's problem domain.
                 ");
             Console.WriteLine(code.count);
-
-            // Inject setup
-            var services = new ServiceCollection();
-            services.AddScoped<IInject, Inject>();
-            var serviceProvider = services.BuildServiceProvider();
-            var inject = serviceProvider.GetRequiredService<IInject>();
-            
-            // Console interaction
-            string message = inject.InjectMessage("Hello, World!");
-            Console.WriteLine(message);
         }
     }
 }
