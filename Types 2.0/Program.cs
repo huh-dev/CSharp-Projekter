@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿global using Types;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Types
 {
@@ -11,7 +12,7 @@ namespace Types
             
             // var result = code.SearchWord(searchText, "type");
             // Console.WriteLine($"Found {result.WordToSearch} {result.Result} times");
-            
+
             var searchText = @"C# is a strongly typed language. 
                 Every variable and constant has a type, as does every expression that evaluates to a value. 
                 Every method declaration specifies a name, the type and kind (value, reference, or output) 
