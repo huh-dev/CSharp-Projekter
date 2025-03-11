@@ -1,0 +1,15 @@
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\bin\Debug\net8.0\VehicleInspection.exe
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\bin\Debug\net8.0\VehicleInspection.deps.json
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\bin\Debug\net8.0\VehicleInspection.runtimeconfig.json
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\bin\Debug\net8.0\VehicleInspection.dll
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\bin\Debug\net8.0\VehicleInspection.pdb
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\obj\Debug\net8.0\VehicleInspection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\obj\Debug\net8.0\VehicleInspection.AssemblyInfoInputs.cache
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\obj\Debug\net8.0\VehicleInspection.AssemblyInfo.cs
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\obj\Debug\net8.0\VehicleInspection.csproj.CoreCompileInputs.cache
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\obj\Debug\net8.0\VehicleInspection.sourcelink.json
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\obj\Debug\net8.0\VehicleInspection.dll
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\obj\Debug\net8.0\refint\VehicleInspection.dll
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\obj\Debug\net8.0\VehicleInspection.pdb
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\obj\Debug\net8.0\VehicleInspection.genruntimeconfig.cache
+C:\Users\chris\Documents\GitHub\CSharp-Projekter\oop\uge 2\vehicleinspection\obj\Debug\net8.0\ref\VehicleInspection.dll
