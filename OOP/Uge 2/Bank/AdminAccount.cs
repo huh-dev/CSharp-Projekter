@@ -1,6 +1,6 @@
 namespace Bank
 {
-    public class AdminAccount : Users
+    public sealedclass AdminAccount : Users
     {
         public int id { get; set; }
         public AccountOwner accountOwner { get; set; }

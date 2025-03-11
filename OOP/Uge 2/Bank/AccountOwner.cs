@@ -1,6 +1,6 @@
 namespace Bank
 {
-    public class AccountOwner : Users
+    public sealed class AccountOwner : Users
     {
         public int customerId { get; set; }
         private Bank bank { get; set; }
@@ -17,6 +17,7 @@ namespace Bank
             this.lastname = lastname;
 
             Bank bank = new Bank(1000);
+            Console.WriteLine(bank.balance);
             this.bank = bank;
 
         }

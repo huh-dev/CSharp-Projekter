@@ -2,7 +2,7 @@ namespace Bank
 {
     public class Bank
     {
-        private double balance { get; set; }
+        private double balance;
 
         public Bank(double balance)
         {

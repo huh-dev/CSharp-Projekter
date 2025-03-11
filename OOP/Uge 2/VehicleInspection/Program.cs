@@ -27,5 +27,10 @@ namespace VehicleInspection
             Console.WriteLine(truck.DisplayInfo());
         }
 
+        private void test()
+        {
+            
+        }
+
     }
 }
