@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP", "OOP", "{74B4417D-3BE8-4531-8B9C-ECC9D9476C5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Uge 2", "Uge 2", "{AC3EA58B-C6B2-4F24-A346-C1EBECD5CA6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "OOP\Uge 2\Bank\Bank.csproj", "{C84F0C1A-622D-4735-A34B-23180809DF95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C84F0C1A-622D-4735-A34B-23180809DF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84F0C1A-622D-4735-A34B-23180809DF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84F0C1A-622D-4735-A34B-23180809DF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84F0C1A-622D-4735-A34B-23180809DF95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC3EA58B-C6B2-4F24-A346-C1EBECD5CA6F} = {74B4417D-3BE8-4531-8B9C-ECC9D9476C5F}
+		{C84F0C1A-622D-4735-A34B-23180809DF95} = {AC3EA58B-C6B2-4F24-A346-C1EBECD5CA6F}
+	EndGlobalSection
+EndGlobal
