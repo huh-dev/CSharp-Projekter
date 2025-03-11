@@ -19,8 +19,8 @@ namespace Types
 
         private void CheckType()
         {
-            var words = message.Split(new[] { ' ', '.', ',', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
-            var enumValues = Enum.GetNames(typeof(TypeMsg));
+            string[] words = message.Split(new[] { ' ', '.', ',', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
+            string[] enumValues = Enum.GetNames(typeof(TypeMsg));
             count = words.Count(w => enumValues.Contains(w, StringComparer.OrdinalIgnoreCase));
         }
     }
