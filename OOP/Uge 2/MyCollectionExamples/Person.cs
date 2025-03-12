@@ -7,7 +7,7 @@ namespace MyCollectionExamples
 
     }
 
-    public class ImmutablePerson
+    public record ImmutablePerson
     {
         public string firstName { get; init; }
         public string lastName { get; init; }
