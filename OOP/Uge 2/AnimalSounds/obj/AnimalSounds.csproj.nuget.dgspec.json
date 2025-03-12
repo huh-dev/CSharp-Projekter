@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\oop\\uge 2\\animalsounds\\AnimalSounds.csproj": {}
+    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\OOP\\Uge 2\\AnimalSounds\\AnimalSounds.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\oop\\uge 2\\animalsounds\\AnimalSounds.csproj": {
+    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\OOP\\Uge 2\\AnimalSounds\\AnimalSounds.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\oop\\uge 2\\animalsounds\\AnimalSounds.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\OOP\\Uge 2\\AnimalSounds\\AnimalSounds.csproj",
         "projectName": "AnimalSounds",
-        "projectPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\oop\\uge 2\\animalsounds\\AnimalSounds.csproj",
+        "projectPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\OOP\\Uge 2\\AnimalSounds\\AnimalSounds.csproj",
         "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\oop\\uge 2\\animalsounds\\obj\\",
+        "outputPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\OOP\\Uge 2\\AnimalSounds\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",

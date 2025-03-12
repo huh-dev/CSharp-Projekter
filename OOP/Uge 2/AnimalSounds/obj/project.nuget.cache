@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EHboTmF6sTA=",
+  "dgSpecHash": "kG0vXanpYPY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\oop\\uge 2\\animalsounds\\AnimalSounds.csproj",
+  "projectFilePath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\OOP\\Uge 2\\AnimalSounds\\AnimalSounds.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
