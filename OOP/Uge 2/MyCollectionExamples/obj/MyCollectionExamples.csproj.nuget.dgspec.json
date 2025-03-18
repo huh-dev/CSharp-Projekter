@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\oop\\uge 2\\mycollectionexamples\\MyCollectionExamples.csproj": {}
+    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\OOP\\Uge 2\\MyCollectionExamples\\MyCollectionExamples.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\oop\\uge 2\\mycollectionexamples\\MyCollectionExamples.csproj": {
+    "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\OOP\\Uge 2\\MyCollectionExamples\\MyCollectionExamples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\oop\\uge 2\\mycollectionexamples\\MyCollectionExamples.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\OOP\\Uge 2\\MyCollectionExamples\\MyCollectionExamples.csproj",
         "projectName": "MyCollectionExamples",
-        "projectPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\oop\\uge 2\\mycollectionexamples\\MyCollectionExamples.csproj",
+        "projectPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\OOP\\Uge 2\\MyCollectionExamples\\MyCollectionExamples.csproj",
         "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\oop\\uge 2\\mycollectionexamples\\obj\\",
+        "outputPath": "C:\\Users\\chris\\Documents\\GitHub\\CSharp-Projekter\\OOP\\Uge 2\\MyCollectionExamples\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,23 @@
+h1 {
+    width:50%; 
+    margin:auto; 
+    background-color: navy;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 8px;
+}  
+#my-special-tag {
+    background-color: blue;
+    color: orange;
+}
+.my-div-class {
+    background-color: red;
+    width: 200px;
+    padding: 8px;
+    display: inline-block;
+    margin: 4px;
+}
+.pict {
+    width: 215px;
+    height: 185px;
+}
