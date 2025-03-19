@@ -1,9 +1,3 @@
-body {
-    margin: 0;
-    background-color: black;
-    overflow: hidden;
-}
-
 .star {
     position: absolute;
     width: 1px;
