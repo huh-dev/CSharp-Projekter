@@ -4,22 +4,31 @@ document.addEventListener('DOMContentLoaded', function() {
     const splashScreen = document.getElementById('splash-screen');
     const mainNav = document.querySelector('.main-nav');
     const landingPage = document.querySelector('.landing-page');
+    const hasSeenSplash = localStorage.getItem('hasSeenSplash');
 
-    for (let i = 0; i < numStars; i++) {
-        let star = document.createElement("div");  
-        star.className = "star";
-        var xy = getRandomPosition();
-        star.style.top = xy[0] + 'px';
-        star.style.left = xy[1] + 'px';
-        splashScreen.appendChild(star);
-        document.body.appendChild(star);
+    if (hasSeenSplash) {
+        skipIntro(false);
+    } else {
+        splashScreen.style.display = 'block';
+        
+        for (let i = 0; i < numStars; i++) {
+            let star = document.createElement("div");  
+            star.className = "star";
+            var xy = getRandomPosition();
+            star.style.top = xy[0] + 'px';
+            star.style.left = xy[1] + 'px';
+            splashScreen.appendChild(star);
+        }
+
+        skipButton.addEventListener('click', () => skipIntro(true));
+        setTimeout(() => skipIntro(true), 45000);
     }
 
-    skipButton.addEventListener('click', skipIntro);
+    function skipIntro(isFirstTime) {
+        if (isFirstTime) {
+            localStorage.setItem('hasSeenSplash', 'true');
+        }
 
-    setTimeout(skipIntro, 45000);
-
-    function skipIntro() {
         skipButton.removeEventListener('click', skipIntro);
         landingPage.style.display = 'block';
         splashScreen.classList.add('hidden');
