@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const skipButton = document.getElementById('skip-button');
     const splashScreen = document.getElementById('splash-screen');
     const mainNav = document.querySelector('.main-nav');
+    const landingPage = document.querySelector('.landing-page');
 
     for (let i = 0; i < numStars; i++) {
         let star = document.createElement("div");  
@@ -20,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function skipIntro() {
         skipButton.removeEventListener('click', skipIntro);
-        
+        landingPage.style.display = 'block';
         splashScreen.classList.add('hidden');
         mainNav.classList.add('visible');
         

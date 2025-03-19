@@ -18,3 +18,17 @@ body {
     background: white;
     border-radius: 50%;
 }
+
+.landing-page {
+    display: none;
+}
+
+.landing-page h1 {
+    text-align: center; 
+    font: 800 100px Arial;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 4px #ffd700;
+}
+
+
+
