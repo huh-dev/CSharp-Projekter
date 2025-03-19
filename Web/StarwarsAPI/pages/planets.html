@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starwars API | Planets</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/styles/index.css">
+    <link rel="stylesheet" href="../assets/styles/navbar.css">
+    <!-- ICON -->
+    <link rel="shortcut icon" href="../assets/images/starwars logo.png" type="image/x-icon">
+    <!-- JS -->
+    <script src="../assets/script/stars.js"></script>
+    <script src="../assets/script/navbar.js"></script>
+    <script src="../assets/script/planets.js"></script>
+</head>
+<body>
+    <div id="starwars-background">
+
+        <nav class="main-nav">
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./character.html">Characters</a></li>
+                <li><a href="./planets.html" style="color: #ffd700;">Planets</a></li>
+                <li><a href="./films.html">Films</a></li>
+            </ul>
+        </nav>
+
+        <div class="planet-container">
+            <select id="planet-select">
+                <option value="">Select a planet</option>
+            </select>
+            <div class="planet-grid">
+                <div class="planet-card">
+                    <h2></h2>
+                    <p class="climate"></p>
+                    <p class="terrain"></p>
+                    <p class="population"></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
