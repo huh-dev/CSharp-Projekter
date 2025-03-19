@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="shortcut icon" href="../icons/unknown.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/index.css">
+    <script src="../script/script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Weather API</h1>
+        <select class="location" onchange="getWeather()">
+            <option value="Ballerup Municipality">Ballerup</option>
+            <option value="Copenhagen">Copenhagen</option>
+            <option value="Aarhus">Aarhus</option>
+            <option value="Odense">Odense</option>
+            <option value="Aalborg">Aalborg</option>            
+        </select>
+
+        <div class="weather-card">
+            <div class="weather-card-header">
+                <h2 class="city-name"></h2>
+                <p class="date"></p>
+            </div>
+            <div class="weather-info">
+                <div class="temperature">
+                    <h3 class="temp"></h3>
+                    <p class="feels-like"></p>
+                </div>
+                <div class="weather-description">
+                    <img src="" alt="weather icon" class="weather-icon">
+                    <p class="description"></p>
+                </div>
+                <div class="weather-details">
+                    <p class="humidity"></p>
+                    <p class="wind"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
