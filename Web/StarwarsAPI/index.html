@@ -4,13 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starwars API</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/styles/index.css">
     <link rel="stylesheet" href="assets/styles/splashscreen.css">
+    <link rel="stylesheet" href="assets/styles/navbar.css">
+    <!-- ICON -->
     <link rel="shortcut icon" href="assets/images/starwars logo.png" type="image/x-icon">
+    <!-- JS -->
+    <script src="assets/script/splashscreen.js"></script>
+    <script src="assets/script/navbar.js"></script>
 </head>
 <body>
+    <div id="splash-screen">
+        <button id="skip-button">Skip</button>
+        <section class="intro">
+            A long time ago, in a galaxy far,<br> far away....
+        </section>
 
+        <section class="logo">
+            <img src="assets/images/starwars logo.png" alt="Star Wars Logo">
+        </section>
 
-    <script src="assets/scripts/splashscreen.js"></script>
+        <div id="board">  
+            <div id="content">
+                <p id="title">Episode I</p>
+                <p id="subtitle">NICE STARWARS API</p>
+                <br>
+                <p>Turmoil has engulfed the Galactic Republic as our hero embarks on a journey to master the ways of... bla bla bla</p>
+                <br>
+                <p>this is made by christian </p>
+            </div>  
+        </div>
+    </div>
+
+    <nav class="main-nav">
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" style="color: #ffd700;">Home</a></li>
+            <li><a href="characters.html">Characters</a></li>
+            <li><a href="planets.html">Planets</a></li>
+            <li><a href="films.html">Films</a></li>
+        </ul>
+    </nav>
+
 </body>
 </html> 

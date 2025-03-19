@@ -1,0 +1,144 @@
+.main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(51, 51, 51, 0.9);
+    z-index: 999;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(92, 92, 92, 0.219);
+    transition: 0.5s ease-in;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    opacity: 0;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+.burger {
+    display: block;
+    cursor: pointer;
+    padding: 20px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 1000;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-active {
+    right: 0;
+}
+
+.nav-active li {
+    animation: navLinkFade 0.5s ease forwards;
+}
+
+.nav-active li:nth-child(1) { animation-delay: 0.2s; }
+.nav-active li:nth-child(2) { animation-delay: 0.3s; }
+.nav-active li:nth-child(3) { animation-delay: 0.4s; }
+.nav-active li:nth-child(4) { animation-delay: 0.5s; }
+.nav-active li:nth-child(5) { animation-delay: 0.6s; }
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-links {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        width: 50%;
+        background: rgba(51, 51, 51, 0.95);
+    }
+
+    .nav-links a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-links {
+        width: 100%;
+        background: rgba(51, 51, 51, 0.98);
+    }
+
+    .burger {
+        right: 15px;
+        top: 15px;
+    }
+
+    .burger div {
+        width: 20px;
+        height: 2px;
+    }
+
+    .nav-links a {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .nav-links {
+        padding: 40px 0;
+        justify-content: flex-start;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+}
