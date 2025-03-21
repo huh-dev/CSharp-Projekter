@@ -6,46 +6,29 @@ async function fetchCharacters() {
 
 function displayCharacters(characters) {
     const characterGrid = document.querySelector('.character-grid');
-    const templateCard = characterGrid.querySelector('.character-card');
-    const templateClone = templateCard ? templateCard.cloneNode(true) : null;
-    
     characterGrid.innerHTML = '';
     
-    if (!templateClone) {
-        characters.forEach(character => {
-            const card = document.createElement('div');
-            card.className = 'character-card';
-            
-            const name = document.createElement('h2');
-            const height = document.createElement('p');
-            const birthYear = document.createElement('p');
-            const gender = document.createElement('p');
-            
-            name.textContent = character.name;
-            height.textContent = `Height: ${character.height} cm`;
-            birthYear.textContent = `Birth Year: ${character.birth_year}`;
-            gender.textContent = `Gender: ${character.gender}`;
-            
-            card.appendChild(name);
-            card.appendChild(height);
-            card.appendChild(birthYear);
-            card.appendChild(gender);
-            
-            characterGrid.appendChild(card);
-        });
-    } else {
-        characters.forEach(character => {
-            const newCard = templateClone.cloneNode(true);
-            const [name, height, birthYear, gender] = newCard.querySelectorAll('h2, p');
-            
-            name.textContent = character.name;
-            height.textContent = `Height: ${character.height} cm`;
-            birthYear.textContent = `Birth Year: ${character.birth_year}`;
-            gender.textContent = `Gender: ${character.gender}`;
-            
-            characterGrid.appendChild(newCard);
-        });
-    }
+    characters.forEach(character => {
+        const newCard = document.createElement('div');
+        newCard.className = 'character-card';
+        
+        const name = document.createElement('h2');
+        const height = document.createElement('p');
+        const birthYear = document.createElement('p');
+        const gender = document.createElement('p');
+        
+        name.textContent = character.name;
+        height.textContent = `Height: ${character.height} cm`;
+        birthYear.textContent = `Birth Year: ${character.birth_year}`;
+        gender.textContent = `Gender: ${character.gender}`;
+        
+        newCard.appendChild(name);
+        newCard.appendChild(height);
+        newCard.appendChild(birthYear);
+        newCard.appendChild(gender);
+        
+        characterGrid.appendChild(newCard);
+    });
 }
 
 function setupSearch(characters) {
@@ -61,6 +44,7 @@ function setupSearch(characters) {
     if (searchInput.value === '') {
         displayCharacters(characters);
     }
+
 }
 
 function setupPagination(characters) {
