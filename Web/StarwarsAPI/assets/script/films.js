@@ -60,7 +60,6 @@ function setupModal() {
     });
 }
 
-// Initialize the page
 fetchFilms().then(films => {
     displayFilms(films);
     setupModal();
